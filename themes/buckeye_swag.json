@@ -1,0 +1,54 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Buckeye Swag",
+  "include": "./dark_modern.json",
+  "colors": {
+    "activityBar.activeBorder": "#ba0c2f",
+    "activityBarBadge.background": "#ba0c2f",
+    "button.background": "#ba0c2f",
+    "button.hoverBackground": "#B10C2D",
+    "chat.slashCommandBackground": "#70071c66",
+    "chat.slashCommandForeground": "#BA2449",
+    "focusBorder": "#ba0c2f",
+    "inputOption.activeBackground": "#70071c82",
+    "inputOption.activeBorder": "#E20F39",
+    "list.activeSelectionBackground": "#70071c",
+    "menu.background": "#1F2123",
+    "menu.selectionBackground": "#ba0c2f",
+    "panelTitle.activeBorder": "#ba0c2f",
+    "progressBar.background": "#ba0c2f",
+    "statusBar.debuggingBackground": "#ba0c2f",
+    "statusBar.focusBorder": "#ba0c2f",
+    "statusBarItem.focusBorder": "#ba0c2f",
+    "statusBarItem.remoteBackground": "#ba0c2f",
+    "tab.activeBorderTop": "#ba0c2f",
+    "tab.selectedBorderTop": "#BA506A",
+    "terminal.tab.activeBorder": "#ba0c2f",
+    "textLink.activeForeground": "#CF0C36",
+    "textLink.foreground": "#CF0C36",
+    "welcomePage.progress.foreground": "#ba0c2f"
+  },
+  "tokenColors": [
+    {
+      "name": "js/ts italic",
+      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "comment",
+      "scope": "comment.line.double-slash,comment.block.documentation",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "markup.italic.markdown",
+      "scope": "markup.italic.markdown",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}

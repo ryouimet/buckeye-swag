@@ -1,0 +1,25 @@
+{
+  "name": "buckeye-swag",
+  "displayName": "Buckeye Swag",
+  "description": "",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryouimet/buckeye-swag.git"
+  },
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Buckeye Swag",
+        "uiTheme": "vs-dark",
+        "path": "./themes/buckeye_swag.json"
+      }
+    ]
+  }
+}
